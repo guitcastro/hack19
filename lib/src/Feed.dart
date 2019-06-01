@@ -9,7 +9,7 @@ class Feed {
 
   Feed.fromRss(RssFeed feed) : this(feed.title, 
     feed.items
-      .where((f) => f.content != null)
+      .where((f) => f.content != null || f.description != null)
       .map((f) => FeedItem.fromRss(f)).toList());
 
   Feed.fromAtom(AtomFeed feed) : this(feed.title,

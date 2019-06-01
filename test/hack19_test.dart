@@ -12,6 +12,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
       
@@ -23,6 +24,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
 
@@ -35,6 +37,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
 
@@ -46,6 +49,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
 
@@ -57,6 +61,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
       
@@ -68,6 +73,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
 
@@ -79,6 +85,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });
 
@@ -90,6 +97,7 @@
         for (var feedItem in feed.items) {
           print(feedItem.title);
           print(feedItem.image);
+          print(feedItem.link);
         }
       });      
 
