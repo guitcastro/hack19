@@ -11,6 +11,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
       
@@ -21,6 +22,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
 
@@ -32,6 +34,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
 
@@ -42,6 +45,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
 
@@ -52,6 +56,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
       
@@ -62,6 +67,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
 
@@ -72,6 +78,7 @@
         print(feed.title);
         for (var feedItem in feed.items) {
           print(feedItem.title);
+          print(feedItem.image);
         }
       });
 
