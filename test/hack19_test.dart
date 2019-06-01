@@ -50,7 +50,7 @@
       });
 
       test('StackOverflow dart', () async {
-        final fetcher = FeedFetcher("https://stackoverflow.com/feeds/tag/flutter");
+        final fetcher = FeedFetcher("https://stackoverflow.com/feeds/tag/dart");
         final feed = await fetcher.fetch();
 
         print(feed.title);
