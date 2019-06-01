@@ -1,4 +1,4 @@
-A library for Dart developers.
+#Hack19 Feed agregrator 
 
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
@@ -8,12 +8,16 @@ Created from templates made available by Stagehand under a BSD-style
 A simple usage example:
 
 ```dart
-import 'package:hack19/hack19.dart';
+final fetcher = FeedFetcher("https://medium.com/feed/flutter");
+final feed = await fetcher.fetch();
 
-main() {
-  var awesome = new Awesome();
+print(feed.title);
+for (var feedItem in feed.items) {
+  print(feedItem.title);
 }
 ```
+
+You can found more examples in the tests files.
 
 ## Features and bugs
 

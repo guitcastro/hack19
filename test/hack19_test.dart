@@ -55,5 +55,25 @@
         }
       });
       
+      test('Github issues flutter repo', () async {
+        final fetcher = FeedFetcher("https://rsshub.app/github/issue/flutter/flutter");
+        final feed = await fetcher.fetch();
+
+        print(feed.title);
+        for (var feedItem in feed.items) {
+          print(feedItem.title);
+        }
+      });
+
+      test('Github pull requests flutter repo', () async {
+        final fetcher = FeedFetcher("http://pullfeed.co/feeds/flutter/flutter");
+        final feed = await fetcher.fetch();
+
+        print(feed.title);
+        for (var feedItem in feed.items) {
+          print(feedItem.title);
+        }
+      });
+
     });
   }
