@@ -82,5 +82,16 @@
         }
       });
 
+      test('Stackoverflow jobs', () async {
+        final fetcher = FeedFetcher("https://stackoverflow.com/jobs/feed?q=flutter");
+        final feed = await fetcher.fetch();
+
+        print(feed.title);
+        for (var feedItem in feed.items) {
+          print(feedItem.title);
+          print(feedItem.image);
+        }
+      });      
+
     });
   }
